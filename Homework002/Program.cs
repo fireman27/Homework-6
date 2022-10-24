@@ -2,7 +2,7 @@
 Console.Write("Введите колличество чисел Фибоначчи: ");
 int N = int.Parse(Console.ReadLine() ?? "0");
 
-System.Console.WriteLine($"Количество чисел Фибоначчи: {N}");
+Console.WriteLine($"Количество чисел Фибоначчи: {N}");
 
 int[] GetFibonacci(int N)
 {
@@ -24,10 +24,10 @@ void PrintArray(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
-        System.Console.Write(arr[i] + " ");
+        Console.Write(arr[i] + " ");
     }
-    System.Console.WriteLine();
+    Console.WriteLine();
 }
 
 PrintArray(GetFibonacci(N));
-System.Console.WriteLine();
+Console.WriteLine();
