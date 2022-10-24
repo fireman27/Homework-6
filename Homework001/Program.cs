@@ -3,17 +3,17 @@
 // b1 k1 и b2 и k2 заданы
 
 Console.Write("Введите k1: ");
-var k1 = Convert.ToDouble(Console.ReadLine());
+double k1 = double.Parse(Console.ReadLine() ?? "0");
 Console.Write("Введите b1: ");
-var b1 = Convert.ToDouble(Console.ReadLine());
+double b1 = double.Parse(Console.ReadLine() ?? "0");
 Console.Write("Введите k2: ");
-var k2 = Convert.ToDouble(Console.ReadLine());
+double k2 = double.Parse(Console.ReadLine() ?? "0");
 Console.Write("Введите b2: ");
-var b2 = Convert.ToDouble(Console.ReadLine());
+double b2 = double.Parse(Console.ReadLine() ?? "0");
  
  
-var x = -(b1 - b2) / (k1 - k2);
-var y = k1 * x + b1;
+double x = -(b1 - b2) / (k1 - k2);
+double y = k1 * x + b1;
  
 x = Math.Round(x, 3);
 y = Math.Round(y, 3);
