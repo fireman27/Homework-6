@@ -33,10 +33,10 @@ void PrintCords(int[,] arr, char[] point)
 }
 
 int k = 2;                                                          
-int[] pointA = { 1, 1 };                                            
-int[] pointB = { 2, 3 };
-int[] pointC = { 5, 3 };
-int[] pointD = { 4, 1 };
+int[] pointA = { 0, 0 };                                            
+int[] pointB = { 2, 0 };
+int[] pointC = { 2, 2 };
+int[] pointD = { 0, 2 };
 char[] pointName = { 'A', 'B', 'C', 'D' };
 
 Console.WriteLine();
